@@ -28,14 +28,6 @@ permalink: /contact/
           </div>
           
           <div class="contact-item">
-            <div class="contact-icon">✉️</div>
-            <div>
-              <h3>Email</h3>
-              <p><a href="mailto:Bradkempfer@gmail.com">Bradkempfer@gmail.com</a></p>
-            </div>
-          </div>
-          
-          <div class="contact-item">
             <div class="contact-icon">📍</div>
             <div>
               <h3>Location</h3>
