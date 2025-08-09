@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <!-- Hero Section -->
-<section class="hero">
+<section id="hero" class="hero">
   <div class="hero-content">
     <h1>Transform your space</h1>
     <p>Elevate your landscape with expertise</p>
@@ -14,7 +14,7 @@ permalink: /
 </section>
 
 <!-- About Section -->
-<section class="about">
+<section id="about" class="about">
   <div class="container">
     <h2>Your landscaping partner</h2>
     <h3>Transforming spaces with care</h3>
@@ -57,7 +57,7 @@ permalink: /
 </section>
 
 <!-- Contact Section -->
-<section class="contact">
+<section id="contact" class="contact">
   <div class="container">
     <h2>Get in touch</h2>
     <p>We're here to help with your landscaping needs!</p>
