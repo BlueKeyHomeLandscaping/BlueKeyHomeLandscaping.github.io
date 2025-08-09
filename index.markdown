@@ -59,7 +59,7 @@ permalink: /
 <!-- Contact Section -->
 <section id="contact" class="contact">
   <div class="container">
-    <form class="contact-form" action="#" method="POST">
+    <form class="contact-form" action="https://formkeep.com/f/d3eaa394c045" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
       <h2 class="form-title">Get in touch</h2>
       <p class="form-subtitle">We're here to help with your landscaping needs!</p>
       <div class="form-group">
@@ -116,6 +116,13 @@ permalink: /
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="5"></textarea>
       </div>
+
+      <!-- file upload not working in FormKeep yet for some reason -->
+      <!-- <div class="form-group file-upload">
+        <input type="file" id="imageUpload" name="images[]" accept="image/*" class="file-input" multiple>
+        <label for="imageUpload" class="file-label">Upload Images</label>
+        <span class="file-chosen" id="file-chosen">No files selected</span>
+      </div> -->
       
       <button type="submit" class="submit-button">Submit</button>
     </form>

@@ -36,4 +36,19 @@
   window.addEventListener('resize', onScroll);
   document.addEventListener('DOMContentLoaded', onScroll);
   onScroll();
+
+  // Enhance file input label with chosen filenames
+  document.addEventListener('change', function(e) {
+    const input = e.target;
+    if (input && input.matches('#imageUpload')) {
+      const span = document.getElementById('file-chosen');
+      if (!span) return;
+      if (!input.files || !input.files.length) {
+        span.textContent = 'No files selected';
+        return;
+      }
+      const names = Array.from(input.files).map(f => f.name);
+      span.textContent = names.length === 1 ? names[0] : `${names.length} files selected`;
+    }
+  });
 })(); 
