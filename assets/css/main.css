@@ -411,13 +411,13 @@ body {
 @media (max-width: 768px) {
   .site-bg {
     background-position: center 20%;
-    background-size: 100% auto;
+    background-size: cover;
   }
 }
 @media (max-width: 480px) {
   .site-bg {
     background-position: center 15%;
-    background-size: 110% auto;
+    background-size: cover;
   }
 }
 
