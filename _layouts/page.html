@@ -6,14 +6,15 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">Blue Key Home</div>
+            <a class="logo" href="/"><img src="/assets/images/logo.png" alt="Blue Key Home logo" class="brand-logo"><span class="brand-title">Blue Key Home</span></a>
             <ul class="nav-links">
-                <li><a href="/">Home</a></li>
+                <li><a href="/#hero">Home</a></li>
                 <li><a href="/#about">About</a></li>
                 <li><a href="/#services">Services</a></li>
                 <li><a href="/#contact">Contact</a></li>

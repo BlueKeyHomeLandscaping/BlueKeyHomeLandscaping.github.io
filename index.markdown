@@ -59,10 +59,9 @@ permalink: /
 <!-- Contact Section -->
 <section id="contact" class="contact">
   <div class="container">
-    <h2>Get in touch</h2>
-    <p>We're here to help with your landscaping needs!</p>
-    
     <form class="contact-form" action="#" method="POST">
+      <h2 class="form-title">Get in touch</h2>
+      <p class="form-subtitle">We're here to help with your landscaping needs!</p>
       <div class="form-group">
         <label for="name">Name *</label>
         <input type="text" id="name" name="name" required>
